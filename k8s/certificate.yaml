@@ -14,7 +14,7 @@ spec:
   acme:
     config:
       - http01:
-        ingressClass: nginx
-      domains:
-        - xmo.se
-        - www.xmo.se
+          ingressClass: nginx
+        domains:
+          - xmo.se
+          - www.xmo.se
